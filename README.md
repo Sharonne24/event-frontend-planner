@@ -42,6 +42,7 @@ CSS: For styling the frontend components.
 
 # Backend API
 The frontend communicates with the backend API to fetch event data and perform CRUD operations. The backend repository can be found at Event Planner Backend.
+This is the link to the backend: https://github.com/Sharonne24/event-backend-planner.git
 
 Contribution
 If you want to contribute to the Event Planner Website, please fork the repository and 
