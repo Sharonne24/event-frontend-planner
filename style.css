@@ -1,0 +1,91 @@
+
+.form-container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  
+  button {
+    padding: 3px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  
+  /* EventList.css */
+
+.EventList a {
+    text-decoration: none;
+    color: inherit; 
+  }
+
+.event-list {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .event-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .event-item h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .event-item p {
+    margin: 0;
+  }
+  
+  .event-item button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .event-item button + button {
+    margin-left: 10px;
+  }
+  
+  .event-item button[type="button"] {
+    background-color: #dc3545;
+  }
+  
